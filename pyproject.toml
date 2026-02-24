@@ -1,5 +1,5 @@
 [project]
-name = "langchainproject"
+name = "reactshearchagent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,8 +8,10 @@ dependencies = [
     "black>=26.1.0",
     "isort>=8.0.0",
     "langchain>=1.2.10",
-    "langchain-ollama>=1.0.1",
+    "langchain-core>=1.2.15",
     "langchain-openai>=1.1.10",
-    "langsmith[openai-agents]>=0.7.6",
+    "langchain-tavily>=0.2.17",
+    "openai>=2.22.0",
     "python-dotenv>=1.2.1",
+    "tavily-python>=0.7.21",
 ]
